@@ -20,7 +20,7 @@ public class ProgressBar : MonoBehaviour
 
     private void Awake()
     {
-        slider = gameObject.GetComponent<Slider>();
+        slider = GetComponent<Slider>();
     }
 
     public void SetMaxValue(int maxValue)
